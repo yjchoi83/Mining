@@ -9,7 +9,7 @@ CONDITIONAL-GO, gate = ASGM-only reference.
 - [ ] **P2 — classifier-dependence + frame erosion** (in progress; `PLAN_P2.md` pre-registered)
   - [x] P2.0 PLAN_P2.md written before any analysis
   - [x] P2.1 Arm E frame: TAP keeps 21.5% / MDD 57.1% / GHA 48.6%; eroded TAP 409 km2 ~ MapBiomas garimpo 494 km2
-  - [ ] P2.2 Reference disagreement (TAP+MDD three-way + characterisation) — K3
+  - [x] P2.2 Reference disagreement — **K3 FAILS (7.6%, CI 6.7-8.6)**; MDD has no MapBiomas coverage; 53% of outside-MB positives within 100 m of mapped mining (post-hoc)
   - [x] P2.3 Ghana industrial rule redefinition — new rule flags 342/528 (vs 78); 20 ha clause does almost all of it, texture clause adds 1
   - [ ] P2.4 Classifier grid (4 classifiers x 2 feature sets x arms U/E) — K1, K2
   - [ ] P2.5 Sensitivities S1-S3

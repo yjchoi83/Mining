@@ -1,0 +1,54 @@
+{
+ "TAP": {
+  "n_frame_points": 4000,
+  "frame_km2": 1904.1926455719306,
+  "counts": {
+   "garimpo": 1036,
+   "industrial": 0,
+   "none": 2964
+  },
+  "area_est_km2": {
+   "garimpo": 493.19,
+   "industrial": 0.0,
+   "none": 1411.01
+  },
+  "wilson95_km2": {
+   "garimpo": [
+    467.8,
+    519.5
+   ],
+   "industrial": [
+    0.0,
+    1.8
+   ],
+   "none": [
+    1384.7,
+    1436.4
+   ]
+  },
+  "mapbiomas_total_km2": {
+   "garimpo": 573.81,
+   "industrial": 4.0
+  },
+  "n_outside_mb": 2964,
+  "outside_by_ndvi": {
+   "bare/non-forest": 175,
+   "forest": 2739,
+   "water": 50
+  },
+  "median_patch_ha": 475.5724296900206,
+  "median_dist_mb_m": 94.86832980505139,
+  "frac_patch_lt_1ha": 0.0,
+  "frac_within_100m_mb": 0.5307017543859649,
+  "K3_explained": 0.07591093117408906,
+  "K3_ci": [
+   0.06691513272273014,
+   0.08600461878961471
+  ],
+  "K3_verdict": "FAIL"
+ },
+ "MDD": {
+  "note": "MapBiomas does not cover this ROI (Brazil-only); no three-way table is possible",
+  "frame_km2": 813.9541972728175
+ }
+}

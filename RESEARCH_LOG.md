@@ -235,3 +235,36 @@ which found the Ghana box to be predominantly artisanal. The rule is run as spec
 pre-registered, and S3 (old vs new) is the sensitivity that exposes it. **Recommendation for P3:
 20 ha is not a usable LSM threshold on Maus v2 hulls; use per-polygon compactness/texture or drop
 the size clause.**
+
+## 2026-09-06 — P2 step 2 (reference disagreement) — **K3 FAILS**
+`results/P2/disagreement.json`, `positives_outside_mapbiomas.csv`.
+**MDD: no three-way table is possible.** MapBiomas is Brazil-only and Madre de Dios is Peru, so
+half the Amazon primary ROI has no independent reference at all. Stated as a coverage fact.
+**TAP** (design-based, n=4,000 in-frame points): inside the frame 493.2 km2 MapBiomas garimpo /
+0.0 industrial / 1,411.0 none; outside the frame 80.6 garimpo / 4.0 industrial.
+Characterising the 2,964 positives outside MapBiomas mining:
+| NDVI class | n | share | median patch | median distance to MapBiomas mining |
+|---|---|---|---|---|
+| forest | 2,739 | 92.4% | 465 ha | 95 m |
+| bare/non-forest | 175 | 5.9% | 743 ha | 30 m |
+| water | 50 | 1.7% | 513 ha | 30 m |
+- **patches < 1 ha: ZERO (0.0%)** — the frame is made of large blobs, not slivers.
+- **K3 = 7.6% explained (CI 6.7-8.6) -> FAIL.** Per PLAN_P2 §1.6 this **flags reference
+  uncertainty** in the results; the disagreement is NOT attributed to frame dilation *by the
+  pre-registered test*.
+- **Post-hoc, clearly outside K3:** **53.1% of the outside-MapBiomas positives lie within 100 m of
+  MapBiomas mining** (median 95 m for the forest class). So they are adjacent to mapped mining
+  rather than in unrelated forest, which *is* the dilation signature — but the pre-registered K3
+  proxy (patch < 1 ha) was simply the wrong instrument, because the intersection produces large
+  contiguous blobs rather than slivers. K3 stands as FAILED; the distance evidence is reported as a
+  post-hoc observation and must not be presented as satisfying K3.
+
+## 2026-09-06 — P2 sensitivity inputs
+S2 landscape WorldCover shares computed (TAP 94.0% tree, MDD 96.4%, GHA 83.2%) — the P1 negatives
+are near-uniform across classes, so S2 is a strong reweighting.
+**S1 is structurally uninformative and is reported as such.** The `uncertain` chips sit in tiny
+frame parts: `TAP_ASGM_017` in a 50.0 ha part (0.026% of the frame) and `TAP_ASGM_022` in a 33.3 ha
+part (0.018%); `TAP_ASGM_034` falls *outside* the frame entirely, which independently corroborates
+the "polygon offset from visible mining" adjudication. Excluding them removes **0-2 sampled points
+of several thousand**, so S1 cannot move any estimate. A meaningful label-uncertainty sensitivity
+needs a far larger adjudicated chip set — a P3 item, not something to fake here.
