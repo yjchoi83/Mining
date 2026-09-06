@@ -1,0 +1,172 @@
+{
+ "boundary": "USDOS/LSIB_SIMPLE/2017 country_na='Korea, North'",
+ "tang_werner_n": 328,
+ "maus_v2_n": 30,
+ "maus_v2_total_km2": 24.557377617872262,
+ "maus_v2_size_km2": {
+  "n": 30,
+  "min": 0.009625649576836683,
+  "p25": 0.06203951949738603,
+  "median": 0.15925533588619506,
+  "p75": 0.6570603456557418,
+  "p95": 2.680491251963822,
+  "max": 9.88717787675522,
+  "sum": 24.557377617872262
+ },
+ "tang_werner_size_km2_top60": {
+  "n": 60,
+  "min": 0.1211,
+  "p25": 0.19979999999999998,
+  "median": 0.35340000000000005,
+  "p75": 0.54435,
+  "p95": 1.7846099999999983,
+  "max": 9.8806,
+  "sum": 39.985600000000005
+ },
+ "tang_werner_names_are_informative": [
+  "2",
+  "\u672a\u547d\u540d\u591a\u8fb9\u5f62"
+ ],
+ "top20": [
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 129.26821,
+   "lat": 42.23719,
+   "area_km2": 9.8872
+  },
+  {
+   "source": "TangWerner",
+   "name": "2",
+   "lon": 129.26821,
+   "lat": 42.23719,
+   "area_km2": 9.8806
+  },
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 129.23946,
+   "lat": 42.24727,
+   "area_km2": 2.9413
+  },
+  {
+   "source": "TangWerner",
+   "name": "2",
+   "lon": 129.23945,
+   "lat": 42.24726,
+   "area_km2": 2.9311
+  },
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 126.05402,
+   "lat": 39.46053,
+   "area_km2": 2.3618
+  },
+  {
+   "source": "TangWerner",
+   "name": "2",
+   "lon": 126.05403,
+   "lat": 39.46054,
+   "area_km2": 2.3605
+  },
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 128.80691,
+   "lat": 40.89527,
+   "area_km2": 1.7921
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 126.16884,
+   "lat": 39.48627,
+   "area_km2": 1.7543
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 128.8066,
+   "lat": 40.89479,
+   "area_km2": 1.5519
+  },
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 128.90083,
+   "lat": 41.08572,
+   "area_km2": 1.545
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 126.20253,
+   "lat": 39.49414,
+   "area_km2": 1.3825
+  },
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 125.67613,
+   "lat": 38.07239,
+   "area_km2": 1.1841
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 128.90088,
+   "lat": 41.08678,
+   "area_km2": 1.1478
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 126.04629,
+   "lat": 39.50223,
+   "area_km2": 0.963
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 126.24471,
+   "lat": 39.56157,
+   "area_km2": 0.8931
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 126.19415,
+   "lat": 39.57113,
+   "area_km2": 0.8433
+  },
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 129.30163,
+   "lat": 42.23979,
+   "area_km2": 0.7327
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 126.23297,
+   "lat": 39.71662,
+   "area_km2": 0.7102
+  },
+  {
+   "source": "TangWerner",
+   "name": "\u672a\u547d\u540d\u591a\u8fb9\u5f62",
+   "lon": 126.04569,
+   "lat": 39.68259,
+   "area_km2": 0.6807
+  },
+  {
+   "source": "MausV2",
+   "name": "",
+   "lon": 126.03328,
+   "lat": 39.49167,
+   "area_km2": 0.6662
+  }
+ ]
+}

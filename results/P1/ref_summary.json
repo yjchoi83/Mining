@@ -1,0 +1,52 @@
+{
+ "TAP": {
+  "roi": [
+   -58.0,
+   -8.0,
+   -54.0,
+   -4.0
+  ],
+  "maus_v2_polygons_in_box": 623,
+  "maus_v2_area_km2": 2866.808701797283,
+  "named_industrial_mines": 3,
+  "amw_features_in_box": 3270,
+  "amw_intersecting": 570,
+  "excluded_within_5km_industrial": 13,
+  "ASGM_positives": 557,
+  "ASGM_area_km2": 2658.2408816621582,
+  "positive_frame_km2": 1904.1926455719306
+ },
+ "MDD": {
+  "roi": [
+   -71.0,
+   -13.4,
+   -69.4,
+   -12.0
+  ],
+  "maus_v2_polygons_in_box": 5,
+  "maus_v2_area_km2": 2539.201990015231,
+  "named_industrial_mines": 0,
+  "amw_features_in_box": 436,
+  "amw_intersecting": 1,
+  "excluded_within_5km_industrial": 0,
+  "ASGM_positives": 1,
+  "ASGM_area_km2": 2536.188905244399,
+  "positive_frame_km2": 813.9541972728175
+ },
+ "GHA": {
+  "roi": [
+   -3.2,
+   4.9,
+   -0.9,
+   7.2
+  ],
+  "maus_v2_polygons_in_box": 528,
+  "maus_v2_area_km2": 1777.159509685069,
+  "named_industrial_mines": 16,
+  "industrial_flagged": 78,
+  "unclassified": 450,
+  "industrial_area_km2": 579.7055115020956,
+  "unclassified_area_km2": 1197.4539981829732,
+  "positive_frame_km2": 1777.159509685069
+ }
+}

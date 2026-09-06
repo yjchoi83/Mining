@@ -1,0 +1,17 @@
+{
+ "asset": "projects/mapbiomas-public/assets/brazil/lulc/collection10/mapbiomas_brazil_collection10_mining_substances_v3",
+ "band": "classification_2019",
+ "roi_TAP": [
+  -58,
+  -8,
+  -54,
+  -4
+ ],
+ "separates_garimpo": true,
+ "codebook": "ATBD Collection 10 Mining Appendix Table 3: 1xx = Industrial, 2xx = Garimpo; 215 = Garimpo Gold",
+ "areas_km2": {
+  "garimpo_all_km2": 573.81,
+  "garimpo_gold_215_km2": 563.52,
+  "industrial_all_km2": 4.0
+ }
+}
