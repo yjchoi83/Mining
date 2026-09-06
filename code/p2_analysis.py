@@ -23,7 +23,12 @@ NS = [10, 20, 40, 80, 160, 320, 640, 1000, 2000]
 DRAWS, FOLDS, BOOT, BOOT_DRAWS, K_REF = 20, 5, 1000, 8, 40
 SEED = 20260906
 NONFEAT = {"id", "cls", "sub", "blk", "lon", "lat", "roi", "mb_cid",
-           "ndvi_med", "wc", "patch_km2", "sub_new", "poly", "industrial_new"}
+           "ndvi_med", "wc", "patch_km2", "sub_new", "poly", "industrial_new",
+           # `wc_name` is a scratch column built by the landscape-negative reweighting (S2).
+           # It exists on the negatives only, so if it is left in the feature list every
+           # POSITIVE row is NaN there and dropna() silently deletes the entire positive
+           # class (observed: pos=0 on the first S2 run). Must stay excluded.
+           "wc_name"}
 CLFS = ("log", "lgbm", "knn", "mlp")
 
 def fast_auc(y, s):

@@ -268,3 +268,30 @@ part (0.018%); `TAP_ASGM_034` falls *outside* the frame entirely, which independ
 the "polygon offset from visible mining" adjudication. Excluding them removes **0-2 sampled points
 of several thousand**, so S1 cannot move any estimate. A meaningful label-uncertainty sensitivity
 needs a far larger adjudicated chip set — a P3 item, not something to fake here.
+
+## 2026-09-07 — P2 steps 4-6 (classifier grid, sensitivities, results)
+Six main runs (Amazon / Ghana-industrial / Ghana-unclassified x arms U/E), 4 classifiers x 2
+feature sets, budgets to 2000, 20 draws, 0.5-deg block CV, 1,000-draw block bootstrap.
+**Amazon label-parity ratio, arm U -> arm E:** logistic 29.80 -> **3.73**, kNN-15 cosine 3.63 ->
+**3.40**, LightGBM 2.75 -> **1.55**, MLP 2x128 2.66 -> **0.62**. Two things fall out of that grid:
+the headline multiple is a **linear-probe artefact** (29.8 vs 2.7 on identical data), and **erosion
+collapses every arm** — only the two representation-level probes still clear 3 once the frame is
+cleaned. MLP on arm E is below 1: the 74-feature baseline reaches AEF's 40-label AUC with *fewer*
+than 40 labels.
+**K1 FAILS** (LightGBM arm E = 1.545, CI 1.044-1.772). Per the pre-registration the paper may claim
+only representation-level efficiency plus classifier-dependence, and **must not claim practical
+label savings**. **K2 PASSES but only just** (+0.0316, CI 0.0218-0.0403, line at +0.03).
+**K3 FAILED** earlier (7.6%).
+**Bug caught in S2 and fixed.** The landscape-negative reweighting adds a scratch `wc_name` column
+to the negatives only; it was not in `NONFEAT`, so it entered the feature list, and `dropna` then
+deleted **every positive row** (first S2 run reported `pos=0`, ratio `None`). `wc_name` is now
+excluded with a comment naming the failure mode, and both S2 runs were redone.
+**S2 strengthens the result rather than rescuing it:** with landscape-proportional (94% tree)
+negatives the LightGBM ratio drops further, 1.83 (U) and **1.09** (E) — so the near-equal-per-class
+negatives used in the main analysis are the harder, more conservative choice.
+**Ghana Arm E is unsplit** (positives drawn from the whole Ghana frame), so the two Ghana Arm-E rows
+are one run reported twice; only Arm U carries the industrial/unclassified split. Stated in the
+table footnote so nobody reads it as a replication.
+`results/P2/P2_results.md` is 45 lines; per-run ratios in `results/P2/ratios.csv`.
+**EE budget respected:** point sampling only, ~48k screening + 15.4k full-stack + ~12k WorldCover
+points and one distance-transform sampling; no image exports.

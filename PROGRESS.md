@@ -6,15 +6,17 @@ CONDITIONAL-GO, gate = ASGM-only reference.
 
 ## Packages
 - [x] **P1 — ASGM-only reference, reference purity QC, label-efficiency re-test** (complete)
-- [ ] **P2 — classifier-dependence + frame erosion** (in progress; `PLAN_P2.md` pre-registered)
+- [x] **P2 — classifier-dependence + frame erosion** (complete)
   - [x] P2.0 PLAN_P2.md written before any analysis
   - [x] P2.1 Arm E frame: TAP keeps 21.5% / MDD 57.1% / GHA 48.6%; eroded TAP 409 km2 ~ MapBiomas garimpo 494 km2
   - [x] P2.2 Reference disagreement — **K3 FAILS (7.6%, CI 6.7-8.6)**; MDD has no MapBiomas coverage; 53% of outside-MB positives within 100 m of mapped mining (post-hoc)
   - [x] P2.3 Ghana industrial rule redefinition — new rule flags 342/528 (vs 78); 20 ha clause does almost all of it, texture clause adds 1
-  - [ ] P2.4 Classifier grid (4 classifiers x 2 feature sets x arms U/E) — K1, K2
-  - [ ] P2.5 Sensitivities S1-S3
-  - [ ] P2.6 results/P2/P2_results.md
-- [ ] P3 — transfer / data-denied target (DPRK recommendation comes out of P1 step 5)
+  - [x] P2.4 Classifier grid — **K1 FAILS** (LightGBM arm E 1.55, CI 1.04-1.77); **K2 passes narrowly** (+0.032)
+  - [x] P2.5 Sensitivities S1-S3 (S2 lowers the LightGBM ratio further to 1.09; S1 uninformative; S3 exposes the 20 ha clause)
+  - [x] P2.6 `results/P2/P2_results.md` (45 lines)
+- [ ] P3 — transfer / data-denied target. **Carry-ins:** claim representation-level efficiency only (K1 failed);
+  erode the positive frame before training; MDD has no independent reference; replace the Ghana 20 ha clause;
+  DPRK evaluation frame = the 21 PRK_VISIBLE polygons only.
 - [ ] P4
 - [ ] P5
 - [ ] P6
