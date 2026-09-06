@@ -155,3 +155,37 @@ WorldCover-stratified, not area-representative.
   bare / low-NDVI mask** before it is used as a label, or the reported AUC is partly a
   forest-vs-forest boundary effect. This is now the single most important open item, ahead of the
   classifier-dependence of the label-parity ratio.
+
+## 2026-09-06 — Step A: human QC adjudication (all 160 chips)
+Reviewer decisions transcribed into `results/P1/qc_table.csv` (`decision` column, previously blank)
+by `code/p1_decisions.py` and documented in `results/P1/qc_decisions.md`. Every chip is now
+adjudicated; the script asserts no blanks.
+Purity: **TAP ASGM 32/35 (~91%)**, **MDD ASGM 13/15 (~87%)**, **GHA unclassified 13/15 (~87%)**,
+negatives 30/30. Amazon uncertains are `TAP_ASGM_017` (river-bend sandbar vs dredging), `022`
+(polygon mostly forest in 2019), `034` (polygon offset from mining), `MDD_ASGM_010`/`013` (natural
+sandbar possible) — i.e. the failure modes are exactly the ones the pixel-level overlap predicted.
+**Two results that change downstream design:**
+1. **The Ghana industrial flag is unreliable from proximity alone** — only 7/15 flagged chips are
+   confirmed industrial, 3/15 are outright ASM (`GHA_IND_000/001/003`, `ASM_like_flag_error`), and
+   5/15 are unresolvable. A 5 km radius around a named mine does not separate LSM from galamsey
+   because galamsey clusters immediately around the concessions. The Stage-3 "Ghana box contains
+   Tarkwa/Obuasi therefore Ghana is contaminated by LSM" reasoning cannot be operationalised with a
+   distance rule.
+2. **Only 21/50 DPRK polygons (42%) show visible surface mining.** Tang & Werner as shipped is a
+   candidate list, not a label set. Any future DPRK work uses only the 21 `PRK_VISIBLE` polygons.
+**Negatives are clean (30/30)** — the Stage-2 caveat that unmapped ASGM in the negatives makes the
+reported AUC a lower bound is not supported at this sample size.
+**Chip purity (~91%) and the 74% area disagreement are consistent, not contradictory:** a chip is
+scored on whether the workings are present, while the area statistic is dominated by the forest the
+dilated Maus x AMW intersection sweeps up around them. The positives sit in the right places; the
+frame is too fat.
+
+## 2026-09-06 — Step B: BLOCKED, no P2 specification exists
+Step B asked to "run Package TA04-P2 exactly as specified earlier". **No such specification exists**
+— not in this session, not in `provenance/`, not in `PLAN.md`; `PROGRESS.md` has only
+"P2 — (not started; blocked on P1 verdict)". The four parameters supplied with the request
+(classifier-dependence framing; Ghana industrial rule = area >= 20 ha OR named-mine proximity AND
+grey terraced texture; exclude the uncertain ids as a sensitivity arm; DPRK frame = the 21
+PRK_VISIBLE polygons) are **constraints on** a package, not the package itself: they fix no
+research question, no ROI/label/feature scope, no metric, no pre-registered decision rule, no
+outputs, and no compute budget. Recorded and held pending the P2 scope.

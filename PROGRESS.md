@@ -6,7 +6,7 @@ CONDITIONAL-GO, gate = ASGM-only reference.
 
 ## Packages
 - [x] **P1 — ASGM-only reference, reference purity QC, label-efficiency re-test** (complete)
-- [ ] P2 — (not started; blocked on P1 verdict)
+- [ ] P2 — **not started: no P2 specification exists yet** (see RESEARCH_LOG 2026-09-06 Step B)
 - [ ] P3 — transfer / data-denied target (DPRK recommendation comes out of P1 step 5)
 - [ ] P4
 - [ ] P5
@@ -17,6 +17,7 @@ CONDITIONAL-GO, gate = ASGM-only reference.
 - [x] 0. Provenance: Stage-4 G2 + TA04 pilot scripts -> `code/upstream/`, `code/SOURCES.md`; ROI boxes reused
 - [x] 1. References (Amazon ASGM-only / Ghana mixed / DPRK counts / hard negatives)
 - [x] 2. Purity QC chips + `results/P1/qc_table.csv` (160 chips, 3.67 MB) + 4 contact sheets in `results/P1/qc_sheets/`
+- [x] A. Human adjudication of all 160 chips — `results/P1/qc_decisions.md`; purity TAP ~91%, MDD ~87%, GHA-unclassified ~87%; Ghana industrial flag unreliable; only 21/50 DPRK polygons visible
 - [x] 3. Label-efficiency re-test, Amazon ASGM-only — **SURVIVES** on the pre-registered primary (25.0, CI 9.12–25.0); LightGBM arm 2.75 fails the line
 - [x] 4. Ghana mixed-label curve (transfer-only framing) — industrial and unclassified reported separately
 - [x] 5. DPRK feasibility summary + P3 recommendation (detection-only; source ROI = Ghana)
