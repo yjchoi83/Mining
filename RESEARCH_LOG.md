@@ -57,3 +57,18 @@ South-North Korea Exchanges and Cooperation Support Association) fetched: it pro
 commodity-level distribution **maps** for 13 minerals plus reserve/production (2014-2021) and
 DPRK-China trade statistics — **no per-mine names with coordinates, no downloadable geodatabase**;
 `/main/mineral/mineralList.do` returns an invalid-service error.
+
+## 2026-09-06 — P1 step 2 (reference purity QC chips)
+160/160 chips written, **3.67 MB total** — under the 15 MB gate, so the chips are committed to
+`results/P1/qc_chips/` rather than pushed to `data/`. Each is a Sentinel-2 2019 annual-median
+RGB thumbnail, 1 x 1 km at 10 m (100 x 100 px), with the reference polygon outline painted in
+yellow; `getThumbURL` only, no image exports. Inventory: **50 Amazon ASGM** (35 TAP + 15 MDD,
+split by positive-frame area), **30 Ghana** (15 industrial-flagged + 15 unclassified),
+**50 DPRK** (all polygons, capped at 50, largest first), **30 hard negatives** (14 GHA / 9 TAP /
+7 MDD, drawn across the WorldCover strata). `results/P1/qc_table.csv` has the required columns
+`id, region, source, proposed_label, decision, notes` with **`decision` left blank** — P1 delivers
+the QC instrument, adjudication is a later package. Zero chip failures.
+Spot checks: `TAP_ASGM_000` shows classic alluvial garimpo (bare spoil + turbid ponds);
+`GHA_UNC_007` shows a small pit fully inside the outline; `PRK_000` (129.27E 42.24N, the largest
+DPRK polygon at 9.89 km2 and the one point where Tang & Werner and Maus v2 agree) shows terraced
+open-pit benches; `NEG_005` is forest/cleared edge with no mining.
