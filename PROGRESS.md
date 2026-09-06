@@ -5,7 +5,7 @@ asymmetric cross-region transfer, negative label pooling). Stage-4 verdict:
 CONDITIONAL-GO, gate = ASGM-only reference.
 
 ## Packages
-- [ ] **P1 — ASGM-only reference, reference purity QC, label-efficiency re-test** (in progress)
+- [x] **P1 — ASGM-only reference, reference purity QC, label-efficiency re-test** (complete)
 - [ ] P2 — (not started; blocked on P1 verdict)
 - [ ] P3 — transfer / data-denied target (DPRK recommendation comes out of P1 step 5)
 - [ ] P4
@@ -17,10 +17,14 @@ CONDITIONAL-GO, gate = ASGM-only reference.
 - [x] 0. Provenance: Stage-4 G2 + TA04 pilot scripts -> `code/upstream/`, `code/SOURCES.md`; ROI boxes reused
 - [x] 1. References (Amazon ASGM-only / Ghana mixed / DPRK counts / hard negatives)
 - [x] 2. Purity QC chips + `results/P1/qc_table.csv` (160 chips, 3.67 MB, committed)
-- [ ] 3. Label-efficiency re-test, Amazon ASGM-only (pre-registered ratio >= 3, CI lower >= 2)
-- [ ] 4. Ghana mixed-label curve (transfer-only framing)
-- [ ] 5. DPRK feasibility summary + P3 recommendation
-- [ ] 6. `results/P1/P1_results.md`
+- [x] 3. Label-efficiency re-test, Amazon ASGM-only — **SURVIVES** on the pre-registered primary (25.0, CI 9.12–25.0); LightGBM arm 2.75 fails the line
+- [x] 4. Ghana mixed-label curve (transfer-only framing) — industrial and unclassified reported separately
+- [x] 5. DPRK feasibility summary + P3 recommendation (detection-only; source ROI = Ghana)
+- [x] 6. `results/P1/P1_results.md` (60 lines)
 
 ## Verdict
-P1 ratio verdict: **pending**
+P1 ratio verdict: **SURVIVES** on the pre-registered primary (logistic, 25.0, CI 9.12–25.0)
+and on the hostile strongest-baseline arm (6.56, CI 3.30–9.69) — but the capacity-matched
+**LightGBM arm is 2.75 (CI 1.69–3.82), below the pre-registered line of 3**. Stage 4's 19.9x
+was a LightGBM number, so the multiple is classifier-dependent and P2 must lead with that.
+Open reference question for P2: MapBiomas confirms only 25.9% of our ASGM positives as garimpo.

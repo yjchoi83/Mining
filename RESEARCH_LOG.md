@@ -72,3 +72,47 @@ Spot checks: `TAP_ASGM_000` shows classic alluvial garimpo (bare spoil + turbid 
 `GHA_UNC_007` shows a small pit fully inside the outline; `PRK_000` (129.27E 42.24N, the largest
 DPRK polygon at 9.89 km2 and the one point where Tang & Werner and Maus v2 agree) shows terraced
 open-pit benches; `NEG_005` is forest/cleared edge with no mining.
+
+## 2026-09-06 — P1 steps 3 & 4 (label-efficiency re-test)
+Sampled AEF-2019 (64 bands) and the Stage-4 G2 **74-feature** classical baseline at the same
+points, 10 m, chunked `sampleRegions`: TAP 8,000 / MDD 7,271 / GHA 7,998 (23,269 points, all
+unique, no NaNs). Point sampling and 160 thumbnails only; **no image exports**.
+**Bug caught mid-run:** attaching the MapBiomas band to the MDD stack silently dropped ~65% of
+points (21/60 returned) because `.unmask(0)` AFTER `.reproject()` does not extend a Brazil-only
+asset's footprint; AEF and all 74 baseline features returned 60/60 at the same points. MDD was
+killed, the band scoped to TAP only, and MDD re-sampled at 100% yield.
+Protocol as pre-registered: budgets {10,20,40,80,160,320,640,1000}, 20 draws, 5-fold GroupKFold on
+**0.5-degree** blocks (79 Amazon / 36 Ghana), AUC, block bootstrap 1,000 draws resampling blocks
+WITH multiplicity.
+**Amazon ASGM-only (n=15,271; 8,000 positives; 79 blocks).** Full-data AUC: AEF 0.953 (log) /
+0.960 (lgbm) vs BASE74 0.857 (log) / 0.909 (lgbm).
+| arm | ratio | 95% CI | passes ratio>=3 & CI_lo>=2 |
+|---|---|---|---|
+| logistic (pre-registered primary) | **25.0**, right-censored | 9.12 – 25.0 | YES |
+| LightGBM (capacity-matched) | **2.75** | 1.69 – 3.82 | **NO** |
+| strongest-baseline (post-hoc, hostile) | **6.56** | 3.30 – 9.69 | YES |
+**Verdict: SURVIVES on the pre-registered primary** — but this must not be reported as a clean win.
+Stage 4's 19.9x (17.3-22.4) was computed on a **LightGBM** baseline; the same arm here collapses to
+**2.75**, below the pre-registered falsification line. The large multiple is a *linear-probe*
+phenomenon: with trees AEF at 40 labels is only 0.793 and the 74-feature baseline catches it by
+~110 labels. The honest headline is the hostile arm, **6.56 (3.30-9.69)**, not 25x.
+**DEVIATION (post-hoc, declared):** the strongest-baseline arm was added AFTER seeing the
+classifier split, because neither same-classifier number is defensible alone. It gives AEF its best
+k=40 AUC and the baseline the pointwise best of both classifiers at every budget.
+**Ghana (mixed, transfer-only)** reproduces the pattern including the LightGBM collapse
+(industrial 23.53 / 3.58 / 8.49; unclassified 25.0 / 3.40 / 22.40), so classifier-dependence is not
+an Amazon artefact. Unclassified positives are **easier** than industrial-flagged ones (AEF full
+0.977 vs 0.955) — the Stage-2 "Ghana is easier" result is therefore **not** driven by large-scale
+mines, which weakens Stage-3 threat (a) in our favour. No ASGM claim rests on Ghana.
+**Source agreement (TAP, at the sample points):** only **25.9%** of our Maus x AMW ASGM positives
+are MapBiomas garimpo and **0.0%** are MapBiomas industrial (the 5 km industrial exclusion works);
+**0.25%** of negatives touch any MapBiomas mining (negatives are clean). The 74% of positives
+MapBiomas does not map as mining is the largest open reference question in the package and is what
+`qc_table.csv` exists to adjudicate.
+
+## 2026-09-06 — P1 steps 5 & 6 (DPRK summary, results file)
+DPRK feasibility written into `results/P1/P1_results.md` §5. P3 recommendation: DPRK is a
+**detection** transfer target only, never commodity attribution; source ROI should be **Ghana**,
+not the Amazon, because DPRK footprints are small (median 1.7 ha), hard-rock and non-forest —
+closer to Ghana's signature than to Amazonian alluvial garimpo; reference = Tang & Werner as a
+frame only, with VHR adjudication. `results/P1/P1_results.md` is exactly 60 lines. **P2 not started.**

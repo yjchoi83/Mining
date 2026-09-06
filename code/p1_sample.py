@@ -97,7 +97,12 @@ def main():
     print(f"{k} points {len(pts)} todo {len(todo)}", flush=True)
 
     stack = aef(Y, roi).addBands(rich(Y, roi))
-    if k in ("TAP", "MDD"):
+    if k == "TAP":
+        # MapBiomas is Brazil-only. GOTCHA: .unmask(0) AFTER .reproject() does NOT extend the
+        # asset footprint, so attaching this band outside Brazil silently drops points in
+        # sampleRegions (measured: 21/60 returned in the Madre de Dios box, while AEF and all
+        # 74 baseline features returned 60/60). Attached for TAP only -- which is also the only
+        # ROI where the MapBiomas source-agreement comparison is meaningful.
         stack = stack.addBands(
             ee.Image(MB).select("classification_2019").reproject(crs="EPSG:4326", scale=30)
             .rename("mb_cid").unmask(0))

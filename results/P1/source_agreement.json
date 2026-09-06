@@ -1,0 +1,24 @@
+{
+ "TAP": {
+  "crosstab": {
+   "ASGM_positive": {
+    "MB_garimpo": 1036,
+    "MB_industrial": 0,
+    "MB_none": 2964
+   },
+   "background_negative": {
+    "MB_garimpo": 3,
+    "MB_industrial": 7,
+    "MB_none": 3990
+   }
+  },
+  "pos_n": 4000,
+  "neg_n": 4000,
+  "frac_our_positives_that_MapBiomas_calls_garimpo": 0.259,
+  "frac_our_positives_MapBiomas_calls_industrial": 0.0,
+  "frac_our_negatives_MapBiomas_calls_mining": 0.0025
+ },
+ "MDD": {
+  "note": "mb_cid absent"
+ }
+}
