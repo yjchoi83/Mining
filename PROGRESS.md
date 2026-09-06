@@ -6,7 +6,14 @@ CONDITIONAL-GO, gate = ASGM-only reference.
 
 ## Packages
 - [x] **P1 — ASGM-only reference, reference purity QC, label-efficiency re-test** (complete)
-- [ ] P2 — **not started: no P2 specification exists yet** (see RESEARCH_LOG 2026-09-06 Step B)
+- [ ] **P2 — classifier-dependence + frame erosion** (in progress; `PLAN_P2.md` pre-registered)
+  - [x] P2.0 PLAN_P2.md written before any analysis
+  - [ ] P2.1 Arm E frame: erosion, area estimate, Arm-E sampling
+  - [ ] P2.2 Reference disagreement (TAP+MDD three-way + characterisation) — K3
+  - [ ] P2.3 Ghana industrial rule redefinition
+  - [ ] P2.4 Classifier grid (4 classifiers x 2 feature sets x arms U/E) — K1, K2
+  - [ ] P2.5 Sensitivities S1-S3
+  - [ ] P2.6 results/P2/P2_results.md
 - [ ] P3 — transfer / data-denied target (DPRK recommendation comes out of P1 step 5)
 - [ ] P4
 - [ ] P5

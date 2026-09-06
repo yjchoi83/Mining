@@ -189,3 +189,18 @@ grey terraced texture; exclude the uncertain ids as a sensitivity arm; DPRK fram
 PRK_VISIBLE polygons) are **constraints on** a package, not the package itself: they fix no
 research question, no ROI/label/feature scope, no metric, no pre-registered decision rule, no
 outputs, and no compute budget. Recorded and held pending the P2 scope.
+
+## 2026-09-06 — P2 step 0 (pre-registration)
+`PLAN_P2.md` written before any P2 analysis. Question: is AEF's label-parity advantage a property
+of the representation or of the (representation, classifier) pair, and does it survive frame
+erosion. Two arms: **U** reuses the 23,269 P1 points as is; **E** re-samples positives inside the
+non-forest part of the Maus x AMW frame (NDVI(annual median) < 0.5 OR WorldCover != tree), keeping
+the **same negatives** so any U->E difference is attributable to the positive frame alone. Arm E is
+size-matched to Arm U at 4,000 positives/ROI so the comparison is not confounded by n. Erosion is
+implemented as **rejection sampling**, which doubles as the design-based estimator of the eroded
+area (acceptance rate x un-eroded area, Wilson CI). Pre-registered K1 (LightGBM ratio >= 3, CI
+lower >= 2 on arm E), K2 (full-data AUC gap >= +0.03, CI excluding 0), K3 (>= 60% of
+outside-MapBiomas positives non-forest/water or patches < 1 ha). K3 is recorded knowing P1 makes it
+likely to FAIL (95% of that area was vegetated) — kept verbatim so the failure is on the record.
+Sensitivities S1-S3 pre-registered as logistic+LightGBM only. EE budget <= 30 EECU-h, point
+sampling only.
