@@ -152,6 +152,6 @@ WorldCover-stratified, not area-representative.
   coarse hulls, so their intersection swallows forest between and around the pits. Example ids for
   each mode are in `results/P1/tap_positives_outside_mapbiomas.csv` (2,964 rows, with lon/lat).
 - Consequence for P2: the ASGM positive frame should be **eroded or intersected with a
-  bare/低-NDVI mask** before it is used as a label, or the reported AUC is partly a
+  bare / low-NDVI mask** before it is used as a label, or the reported AUC is partly a
   forest-vs-forest boundary effect. This is now the single most important open item, ahead of the
   classifier-dependence of the label-parity ratio.
