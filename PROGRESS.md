@@ -8,9 +8,9 @@ CONDITIONAL-GO, gate = ASGM-only reference.
 - [x] **P1 — ASGM-only reference, reference purity QC, label-efficiency re-test** (complete)
 - [ ] **P2 — classifier-dependence + frame erosion** (in progress; `PLAN_P2.md` pre-registered)
   - [x] P2.0 PLAN_P2.md written before any analysis
-  - [ ] P2.1 Arm E frame: erosion, area estimate, Arm-E sampling
+  - [x] P2.1 Arm E frame: TAP keeps 21.5% / MDD 57.1% / GHA 48.6%; eroded TAP 409 km2 ~ MapBiomas garimpo 494 km2
   - [ ] P2.2 Reference disagreement (TAP+MDD three-way + characterisation) — K3
-  - [ ] P2.3 Ghana industrial rule redefinition
+  - [x] P2.3 Ghana industrial rule redefinition — new rule flags 342/528 (vs 78); 20 ha clause does almost all of it, texture clause adds 1
   - [ ] P2.4 Classifier grid (4 classifiers x 2 feature sets x arms U/E) — K1, K2
   - [ ] P2.5 Sensitivities S1-S3
   - [ ] P2.6 results/P2/P2_results.md

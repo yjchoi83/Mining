@@ -1,0 +1,26 @@
+{
+ "area_ha_threshold": 20.0,
+ "prox_m": 2000.0,
+ "ndvi_thresh": 0.35,
+ "tex_thresh_B8_sd7": 0.029561670718504476,
+ "n_polygons": 528,
+ "n_industrial_old": 78,
+ "n_industrial_new": 342,
+ "n_by_size": 344,
+ "n_by_prox_and_texture_only": 1,
+ "p1_override_polys": [
+  488,
+  479,
+  125
+ ],
+ "points_old_x_new": {
+  "industrial": {
+   "industrial": 882,
+   "unclassified": 1118
+  },
+  "unclassified": {
+   "industrial": 1980,
+   "unclassified": 20
+  }
+ }
+}

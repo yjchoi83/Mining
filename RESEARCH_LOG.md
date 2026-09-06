@@ -204,3 +204,34 @@ outside-MapBiomas positives non-forest/water or patches < 1 ha). K3 is recorded 
 likely to FAIL (95% of that area was vegetated) — kept verbatim so the failure is on the record.
 Sensitivities S1-S3 pre-registered as logistic+LightGBM only. EE budget <= 30 EECU-h, point
 sampling only.
+
+## 2026-09-06 — P2 steps 1 & 3 (frame erosion; Ghana flag redefinition)
+**Erosion** (`results/P2/frame_erosion.json`), rejection sampling of 16,000 uniform in-frame
+candidates per ROI, screened on WorldCover + S2-2019 annual-median B4/B8:
+| ROI | un-eroded km2 | eroded km2 | removed km2 | kept (95% CI) |
+|---|---|---|---|---|
+| TAP | 1,904.2 | **409.4** | 1,494.8 | **21.5%** (20.9-22.1) |
+| MDD | 814.0 | **465.2** | 348.8 | **57.1%** (56.4-57.9) |
+| GHA | 1,777.2 | **864.1** | 913.0 | **48.6%** (47.9-49.4) |
+**The Tapajos frame is 78.5% forest.** The eroded TAP frame (409 km2) lands close to the
+independent MapBiomas garimpo area (494 km2 estimated inside the frame, 574 km2 box-wide) — two
+methods that share no inputs now agree to within ~20%, where the un-eroded frame was 3.3x too big.
+That is strong independent support for the P1 diagnosis that the disagreement is frame dilation.
+MDD keeps 57% (alluvial garimpo there is genuinely bare) and Ghana 49%.
+Arm E has fewer 0.5-deg blocks than Arm U (TAP 67->34, MDD 12->7) because erosion concentrates the
+positives; noted as a CV-granularity caveat, not corrected.
+
+**Ghana industrial rule** (`results/P2/ghana_flag.json`). Implemented exactly as pre-registered:
+`area >= 20 ha` OR (`<2 km of a named mine` AND `median NDVI_p50 < 0.35` AND `median B8_sd7 >
+0.02956`, the Ghana positive-polygon median). P1 override applied: the 3 polygons under
+`GHA_IND_000/001/003` (poly ids 488, 479, 125) forced to ASM-like.
+**The rule behaves very differently from what it was meant to do: it flags 342/528 polygons as
+industrial, against 78 under the old 5 km rule — and 344 of those come from the `area >= 20 ha`
+clause alone, with only ONE polygon added by the `2 km + grey terraced texture` clause.** At the
+point level 1,980 of the 2,000 previously-unclassified positives flip to industrial. The cause is
+that Maus v2 polygons are coarse hulls that aggregate many small ASM pits, so 65% of Ghana polygons
+clear 20 ha without being large-scale mines; this directly contradicts the P1 chip adjudication,
+which found the Ghana box to be predominantly artisanal. The rule is run as specified because it is
+pre-registered, and S3 (old vs new) is the sensitivity that exposes it. **Recommendation for P3:
+20 ha is not a usable LSM threshold on Maus v2 hulls; use per-polygon compactness/texture or drop
+the size clause.**
