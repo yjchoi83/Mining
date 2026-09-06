@@ -1,161 +1,161 @@
 id,region,source,proposed_label,decision,notes
-TAP_ASGM_000,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.70443 lat=-7.56651; chip=yes; outline=yes
-TAP_ASGM_001,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.47786 lat=-5.70210; chip=yes; outline=yes
-TAP_ASGM_002,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.91221 lat=-5.73920; chip=yes; outline=yes
-TAP_ASGM_003,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.72625 lat=-7.57790; chip=yes; outline=yes
-TAP_ASGM_004,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.46927 lat=-5.69198; chip=yes; outline=yes
-TAP_ASGM_005,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.67819 lat=-5.95079; chip=yes; outline=yes
-TAP_ASGM_006,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.47866 lat=-4.91395; chip=yes; outline=yes
-TAP_ASGM_007,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.70416 lat=-7.88509; chip=yes; outline=yes
-TAP_ASGM_008,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.47243 lat=-5.78727; chip=yes; outline=yes
-TAP_ASGM_009,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.54801 lat=-6.80829; chip=yes; outline=yes
-TAP_ASGM_010,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.53443 lat=-5.35866; chip=yes; outline=yes
-TAP_ASGM_011,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.72747 lat=-5.37605; chip=yes; outline=yes
-TAP_ASGM_012,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.29048 lat=-7.20182; chip=yes; outline=yes
-TAP_ASGM_013,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.34632 lat=-6.31777; chip=yes; outline=yes
-TAP_ASGM_014,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.35357 lat=-5.71561; chip=yes; outline=yes
-TAP_ASGM_015,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.19752 lat=-6.91950; chip=yes; outline=yes
-TAP_ASGM_016,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.18527 lat=-7.28788; chip=yes; outline=yes
-TAP_ASGM_017,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.11319 lat=-6.71344; chip=yes; outline=yes
-TAP_ASGM_018,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.54373 lat=-5.80905; chip=yes; outline=yes
-TAP_ASGM_019,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.13282 lat=-5.51717; chip=yes; outline=yes
-TAP_ASGM_020,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.50006 lat=-6.18957; chip=yes; outline=yes
-TAP_ASGM_021,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.66390 lat=-5.64808; chip=yes; outline=yes
-TAP_ASGM_022,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.37381 lat=-6.24205; chip=yes; outline=yes
-TAP_ASGM_023,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.57290 lat=-7.02681; chip=yes; outline=yes
-TAP_ASGM_024,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.61450 lat=-5.49070; chip=yes; outline=yes
-TAP_ASGM_025,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.77784 lat=-5.54622; chip=yes; outline=yes
-TAP_ASGM_026,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.63020 lat=-6.77909; chip=yes; outline=yes
-TAP_ASGM_027,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.03132 lat=-7.12187; chip=yes; outline=yes
-TAP_ASGM_028,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.62316 lat=-5.67202; chip=yes; outline=yes
-TAP_ASGM_029,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.43588 lat=-7.06623; chip=yes; outline=yes
-TAP_ASGM_030,TAP,MausV2 x AMW2019-20,ASGM,,lon=-57.91128 lat=-6.03080; chip=yes; outline=yes
-TAP_ASGM_031,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.05458 lat=-6.40990; chip=yes; outline=yes
-TAP_ASGM_032,TAP,MausV2 x AMW2019-20,ASGM,,lon=-55.58280 lat=-6.48200; chip=yes; outline=yes
-TAP_ASGM_033,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.40765 lat=-6.42644; chip=yes; outline=yes
-TAP_ASGM_034,TAP,MausV2 x AMW2019-20,ASGM,,lon=-56.26336 lat=-6.19811; chip=yes; outline=yes
-MDD_ASGM_000,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.54783 lat=-12.87582; chip=yes; outline=yes
-MDD_ASGM_001,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.24388 lat=-13.10575; chip=yes; outline=yes
-MDD_ASGM_002,MDD,MausV2 x AMW2019-20,ASGM,,lon=-69.77520 lat=-12.68738; chip=yes; outline=yes
-MDD_ASGM_003,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.11262 lat=-12.64585; chip=yes; outline=yes
-MDD_ASGM_004,MDD,MausV2 x AMW2019-20,ASGM,,lon=-69.40363 lat=-12.54135; chip=yes; outline=yes
-MDD_ASGM_005,MDD,MausV2 x AMW2019-20,ASGM,,lon=-69.67269 lat=-12.68295; chip=yes; outline=yes
-MDD_ASGM_006,MDD,MausV2 x AMW2019-20,ASGM,,lon=-69.42805 lat=-12.61022; chip=yes; outline=yes
-MDD_ASGM_007,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.14854 lat=-12.60674; chip=yes; outline=yes
-MDD_ASGM_008,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.00402 lat=-12.65815; chip=yes; outline=yes
-MDD_ASGM_009,MDD,MausV2 x AMW2019-20,ASGM,,lon=-69.81983 lat=-12.67784; chip=yes; outline=yes
-MDD_ASGM_010,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.26509 lat=-12.55160; chip=yes; outline=yes
-MDD_ASGM_011,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.69425 lat=-12.96107; chip=yes; outline=yes
-MDD_ASGM_012,MDD,MausV2 x AMW2019-20,ASGM,,lon=-69.99073 lat=-12.62401; chip=yes; outline=yes
-MDD_ASGM_013,MDD,MausV2 x AMW2019-20,ASGM,,lon=-70.34994 lat=-12.62243; chip=yes; outline=yes
-MDD_ASGM_014,MDD,MausV2 x AMW2019-20,ASGM,,lon=-69.71248 lat=-12.62254; chip=yes; outline=yes
-GHA_IND_000,GHA,MausV2 (GHA box),industrial,,lon=-1.99865 lat=6.11981; chip=yes; outline=yes
-GHA_IND_001,GHA,MausV2 (GHA box),industrial,,lon=-1.69424 lat=6.08810; chip=yes; outline=yes
-GHA_IND_002,GHA,MausV2 (GHA box),industrial,,lon=-1.96579 lat=5.26836; chip=yes; outline=yes
-GHA_IND_003,GHA,MausV2 (GHA box),industrial,,lon=-1.75325 lat=5.96616; chip=yes; outline=yes
-GHA_IND_004,GHA,MausV2 (GHA box),industrial,,lon=-2.04254 lat=5.57735; chip=yes; outline=yes
-GHA_IND_005,GHA,MausV2 (GHA box),industrial,,lon=-2.31823 lat=4.96051; chip=yes; outline=yes
-GHA_IND_006,GHA,MausV2 (GHA box),industrial,,lon=-2.28479 lat=6.23535; chip=yes; outline=yes
-GHA_IND_007,GHA,MausV2 (GHA box),industrial,,lon=-1.67320 lat=6.13725; chip=yes; outline=yes
-GHA_IND_008,GHA,MausV2 (GHA box),industrial,,lon=-1.68565 lat=6.15905; chip=yes; outline=yes
-GHA_IND_009,GHA,MausV2 (GHA box),industrial,,lon=-1.70814 lat=6.17510; chip=yes; outline=yes
-GHA_IND_010,GHA,MausV2 (GHA box),industrial,,lon=-1.71562 lat=6.14880; chip=yes; outline=yes
-GHA_IND_011,GHA,MausV2 (GHA box),industrial,,lon=-1.69945 lat=6.17750; chip=yes; outline=yes
-GHA_IND_012,GHA,MausV2 (GHA box),industrial,,lon=-1.69636 lat=6.18000; chip=yes; outline=yes
-GHA_IND_013,GHA,MausV2 (GHA box),industrial,,lon=-2.27384 lat=6.23380; chip=yes; outline=yes
-GHA_IND_014,GHA,MausV2 (GHA box),industrial,,lon=-2.31710 lat=4.95670; chip=yes; outline=yes
-GHA_UNC_000,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-2.14886 lat=5.70395; chip=yes; outline=yes
-GHA_UNC_001,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-2.24153 lat=5.10989; chip=yes; outline=yes
-GHA_UNC_002,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.91511 lat=5.25150; chip=yes; outline=yes
-GHA_UNC_003,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-2.29524 lat=5.95161; chip=yes; outline=yes
-GHA_UNC_004,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-2.23868 lat=5.01250; chip=yes; outline=yes
-GHA_UNC_005,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-2.36384 lat=5.83537; chip=yes; outline=yes
-GHA_UNC_006,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.86536 lat=5.13289; chip=yes; outline=yes
-GHA_UNC_007,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-2.60220 lat=5.74059; chip=yes; outline=yes
-GHA_UNC_008,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.88341 lat=5.18896; chip=yes; outline=yes
-GHA_UNC_009,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-2.53891 lat=5.78994; chip=yes; outline=yes
-GHA_UNC_010,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.54941 lat=5.92860; chip=yes; outline=yes
-GHA_UNC_011,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.27188 lat=6.51914; chip=yes; outline=yes
-GHA_UNC_012,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.92648 lat=6.40625; chip=yes; outline=yes
-GHA_UNC_013,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.68876 lat=5.03521; chip=yes; outline=yes
-GHA_UNC_014,GHA,MausV2 (GHA box),"mining, unclassified",,lon=-1.52196 lat=5.92376; chip=yes; outline=yes
-PRK_000,PRK,MausV2,"mining, unclassified (data-denied)",,lon=129.26821 lat=42.23719; chip=yes; outline=yes
-PRK_001,PRK,MausV2,"mining, unclassified (data-denied)",,lon=129.23946 lat=42.24727; chip=yes; outline=yes
-PRK_002,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=129.23945 lat=42.24726; chip=yes; outline=yes
-PRK_003,PRK,MausV2,"mining, unclassified (data-denied)",,lon=126.05402 lat=39.46053; chip=yes; outline=yes
-PRK_004,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.05403 lat=39.46054; chip=yes; outline=yes
-PRK_005,PRK,MausV2,"mining, unclassified (data-denied)",,lon=128.80691 lat=40.89527; chip=yes; outline=yes
-PRK_006,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.16884 lat=39.48627; chip=yes; outline=no polygon
-PRK_007,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=128.80660 lat=40.89479; chip=yes; outline=yes
-PRK_008,PRK,MausV2,"mining, unclassified (data-denied)",,lon=128.90083 lat=41.08572; chip=yes; outline=yes
-PRK_009,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.20253 lat=39.49414; chip=yes; outline=no polygon
-PRK_010,PRK,MausV2,"mining, unclassified (data-denied)",,lon=125.67613 lat=38.07239; chip=yes; outline=yes
-PRK_011,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=128.90088 lat=41.08678; chip=yes; outline=yes
-PRK_012,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.04629 lat=39.50223; chip=yes; outline=no polygon
-PRK_013,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.24471 lat=39.56157; chip=yes; outline=no polygon
-PRK_014,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.19415 lat=39.57113; chip=yes; outline=no polygon
-PRK_015,PRK,MausV2,"mining, unclassified (data-denied)",,lon=129.30163 lat=42.23979; chip=yes; outline=yes
-PRK_016,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.23297 lat=39.71662; chip=yes; outline=no polygon
-PRK_017,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.04569 lat=39.68259; chip=yes; outline=no polygon
-PRK_018,PRK,MausV2,"mining, unclassified (data-denied)",,lon=126.03328 lat=39.49167; chip=yes; outline=yes
-PRK_019,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.15025 lat=39.75766; chip=yes; outline=no polygon
-PRK_020,PRK,MausV2,"mining, unclassified (data-denied)",,lon=126.80457 lat=41.73622; chip=yes; outline=yes
-PRK_021,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.10139 lat=39.46806; chip=yes; outline=no polygon
-PRK_022,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.05754 lat=39.70911; chip=yes; outline=no polygon
-PRK_023,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.07121 lat=39.83864; chip=yes; outline=no polygon
-PRK_024,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=129.29914 lat=42.24003; chip=yes; outline=yes
-PRK_025,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.05543 lat=39.69650; chip=yes; outline=no polygon
-PRK_026,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.06045 lat=39.55025; chip=yes; outline=no polygon
-PRK_027,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=128.72803 lat=40.59245; chip=yes; outline=no polygon
-PRK_028,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.20888 lat=39.56905; chip=yes; outline=no polygon
-PRK_029,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.18362 lat=39.78001; chip=yes; outline=no polygon
-PRK_030,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.07143 lat=39.46018; chip=yes; outline=yes
-PRK_031,PRK,MausV2,"mining, unclassified (data-denied)",,lon=126.07143 lat=39.46015; chip=yes; outline=yes
-PRK_032,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.02869 lat=39.47230; chip=yes; outline=yes
-PRK_033,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.22975 lat=39.52929; chip=yes; outline=no polygon
-PRK_034,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.19752 lat=39.79471; chip=yes; outline=no polygon
-PRK_035,PRK,MausV2,"mining, unclassified (data-denied)",,lon=126.02865 lat=39.47232; chip=yes; outline=yes
-PRK_036,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.16396 lat=39.81625; chip=yes; outline=no polygon
-PRK_037,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=128.84619 lat=40.86777; chip=yes; outline=no polygon
-PRK_038,PRK,MausV2,"mining, unclassified (data-denied)",,lon=125.68717 lat=38.06880; chip=yes; outline=yes
-PRK_039,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.03103 lat=39.51937; chip=yes; outline=no polygon
-PRK_040,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.17624 lat=39.71930; chip=yes; outline=no polygon
-PRK_041,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.17502 lat=39.47489; chip=yes; outline=no polygon
-PRK_042,PRK,MausV2,"mining, unclassified (data-denied)",,lon=128.72819 lat=40.59986; chip=yes; outline=yes
-PRK_043,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.10420 lat=39.47729; chip=yes; outline=no polygon
-PRK_044,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.07968 lat=39.55504; chip=yes; outline=no polygon
-PRK_045,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.15062 lat=39.48057; chip=yes; outline=no polygon
-PRK_046,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.07411 lat=39.82988; chip=yes; outline=no polygon
-PRK_047,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.09556 lat=39.48085; chip=yes; outline=no polygon
-PRK_048,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.16082 lat=39.56713; chip=yes; outline=no polygon
-PRK_049,PRK,TangWerner,"mining, unclassified (data-denied)",,lon=126.12797 lat=39.47524; chip=yes; outline=no polygon
-NEG_000,TAP,background/neg_grass,not mining,,lon=-56.00756 lat=-4.25907; chip=yes; outline=no polygon
-NEG_001,GHA,background/neg_bare,not mining,,lon=-3.19498 lat=5.10964; chip=yes; outline=no polygon
-NEG_002,GHA,background/neg_wetland,not mining,,lon=-2.75220 lat=5.03014; chip=yes; outline=no polygon
-NEG_003,GHA,background/neg_wetland,not mining,,lon=-1.01558 lat=5.22579; chip=yes; outline=no polygon
-NEG_004,MDD,background/neg_grass,not mining,,lon=-70.24308 lat=-12.79720; chip=yes; outline=no polygon
-NEG_005,TAP,background/neg_grass,not mining,,lon=-54.96462 lat=-6.59101; chip=yes; outline=no polygon
-NEG_006,GHA,background/neg_mangrove,not mining,,lon=-2.42773 lat=4.95899; chip=yes; outline=no polygon
-NEG_007,GHA,background/neg_tree,not mining,,lon=-3.05727 lat=5.61844; chip=yes; outline=no polygon
-NEG_008,TAP,background/neg_wetland,not mining,,lon=-57.64852 lat=-4.40972; chip=yes; outline=no polygon
-NEG_009,MDD,background/neg_grass,not mining,,lon=-69.51813 lat=-12.73764; chip=yes; outline=no polygon
-NEG_010,TAP,background/neg_bare,not mining,,lon=-56.20268 lat=-4.83175; chip=yes; outline=no polygon
-NEG_011,GHA,background/neg_shrub,not mining,,lon=-1.30367 lat=7.14890; chip=yes; outline=no polygon
-NEG_012,TAP,background/neg_bare,not mining,,lon=-55.31038 lat=-7.37281; chip=yes; outline=no polygon
-NEG_013,TAP,background/neg_crop,not mining,,lon=-55.48232 lat=-6.94944; chip=yes; outline=no polygon
-NEG_014,GHA,background/neg_wetland,not mining,,lon=-2.93869 lat=5.09428; chip=yes; outline=no polygon
-NEG_015,TAP,background/neg_built,not mining,,lon=-57.76089 lat=-6.01025; chip=yes; outline=no polygon
-NEG_016,GHA,background/neg_built,not mining,,lon=-1.27510 lat=5.69821; chip=yes; outline=no polygon
-NEG_017,MDD,background/neg_tree,not mining,,lon=-70.88097 lat=-12.71905; chip=yes; outline=no polygon
-NEG_018,TAP,background/neg_grass,not mining,,lon=-54.91880 lat=-4.51078; chip=yes; outline=no polygon
-NEG_019,GHA,background/neg_crop,not mining,,lon=-1.12957 lat=7.13381; chip=yes; outline=no polygon
-NEG_020,MDD,background/neg_crop,not mining,,lon=-70.17085 lat=-12.91443; chip=yes; outline=no polygon
-NEG_021,GHA,background/neg_bare,not mining,,lon=-2.63847 lat=6.13102; chip=yes; outline=no polygon
-NEG_022,MDD,background/neg_water,not mining,,lon=-70.98742 lat=-12.33960; chip=yes; outline=no polygon
-NEG_023,GHA,background/neg_built,not mining,,lon=-1.01153 lat=7.19283; chip=yes; outline=no polygon
-NEG_024,GHA,background/neg_water,not mining,,lon=-1.18158 lat=5.10344; chip=yes; outline=no polygon
-NEG_025,TAP,background/neg_built,not mining,,lon=-54.24318 lat=-5.68066; chip=yes; outline=no polygon
-NEG_026,GHA,background/neg_water,not mining,,lon=-0.90589 lat=4.95495; chip=yes; outline=no polygon
-NEG_027,MDD,background/neg_grass,not mining,,lon=-69.57796 lat=-12.77564; chip=yes; outline=no polygon
-NEG_028,GHA,background/neg_wetland,not mining,,lon=-2.94111 lat=5.11368; chip=yes; outline=no polygon
-NEG_029,MDD,background/neg_tree,not mining,,lon=-69.69411 lat=-12.76351; chip=yes; outline=no polygon
+TAP_ASGM_000,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.70443 lat=-7.56651; chip=yes; outline=yes
+TAP_ASGM_001,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.47786 lat=-5.70210; chip=yes; outline=yes
+TAP_ASGM_002,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.91221 lat=-5.73920; chip=yes; outline=yes
+TAP_ASGM_003,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.72625 lat=-7.57790; chip=yes; outline=yes
+TAP_ASGM_004,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.46927 lat=-5.69198; chip=yes; outline=yes
+TAP_ASGM_005,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.67819 lat=-5.95079; chip=yes; outline=yes
+TAP_ASGM_006,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.47866 lat=-4.91395; chip=yes; outline=yes
+TAP_ASGM_007,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.70416 lat=-7.88509; chip=yes; outline=yes
+TAP_ASGM_008,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.47243 lat=-5.78727; chip=yes; outline=yes
+TAP_ASGM_009,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.54801 lat=-6.80829; chip=yes; outline=yes
+TAP_ASGM_010,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.53443 lat=-5.35866; chip=yes; outline=yes
+TAP_ASGM_011,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.72747 lat=-5.37605; chip=yes; outline=yes
+TAP_ASGM_012,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.29048 lat=-7.20182; chip=yes; outline=yes
+TAP_ASGM_013,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.34632 lat=-6.31777; chip=yes; outline=yes
+TAP_ASGM_014,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.35357 lat=-5.71561; chip=yes; outline=yes
+TAP_ASGM_015,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.19752 lat=-6.91950; chip=yes; outline=yes
+TAP_ASGM_016,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.18527 lat=-7.28788; chip=yes; outline=yes
+TAP_ASGM_017,TAP,MausV2 x AMW2019-20,ASGM,uncertain,lon=-56.11319 lat=-6.71344; chip=yes; outline=yes; adj: river-bend sandbar vs dredging — cannot separate
+TAP_ASGM_018,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.54373 lat=-5.80905; chip=yes; outline=yes
+TAP_ASGM_019,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.13282 lat=-5.51717; chip=yes; outline=yes
+TAP_ASGM_020,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.50006 lat=-6.18957; chip=yes; outline=yes
+TAP_ASGM_021,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.66390 lat=-5.64808; chip=yes; outline=yes
+TAP_ASGM_022,TAP,MausV2 x AMW2019-20,ASGM,uncertain,lon=-56.37381 lat=-6.24205; chip=yes; outline=yes; adj: polygon mostly forest in 2019
+TAP_ASGM_023,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.57290 lat=-7.02681; chip=yes; outline=yes
+TAP_ASGM_024,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.61450 lat=-5.49070; chip=yes; outline=yes
+TAP_ASGM_025,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.77784 lat=-5.54622; chip=yes; outline=yes
+TAP_ASGM_026,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.63020 lat=-6.77909; chip=yes; outline=yes
+TAP_ASGM_027,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.03132 lat=-7.12187; chip=yes; outline=yes
+TAP_ASGM_028,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.62316 lat=-5.67202; chip=yes; outline=yes
+TAP_ASGM_029,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.43588 lat=-7.06623; chip=yes; outline=yes
+TAP_ASGM_030,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-57.91128 lat=-6.03080; chip=yes; outline=yes
+TAP_ASGM_031,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.05458 lat=-6.40990; chip=yes; outline=yes
+TAP_ASGM_032,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-55.58280 lat=-6.48200; chip=yes; outline=yes
+TAP_ASGM_033,TAP,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-56.40765 lat=-6.42644; chip=yes; outline=yes
+TAP_ASGM_034,TAP,MausV2 x AMW2019-20,ASGM,uncertain,lon=-56.26336 lat=-6.19811; chip=yes; outline=yes; adj: polygon offset from visible mining
+MDD_ASGM_000,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-70.54783 lat=-12.87582; chip=yes; outline=yes
+MDD_ASGM_001,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-70.24388 lat=-13.10575; chip=yes; outline=yes
+MDD_ASGM_002,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-69.77520 lat=-12.68738; chip=yes; outline=yes
+MDD_ASGM_003,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-70.11262 lat=-12.64585; chip=yes; outline=yes
+MDD_ASGM_004,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-69.40363 lat=-12.54135; chip=yes; outline=yes
+MDD_ASGM_005,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-69.67269 lat=-12.68295; chip=yes; outline=yes
+MDD_ASGM_006,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-69.42805 lat=-12.61022; chip=yes; outline=yes
+MDD_ASGM_007,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-70.14854 lat=-12.60674; chip=yes; outline=yes
+MDD_ASGM_008,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-70.00402 lat=-12.65815; chip=yes; outline=yes
+MDD_ASGM_009,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-69.81983 lat=-12.67784; chip=yes; outline=yes
+MDD_ASGM_010,MDD,MausV2 x AMW2019-20,ASGM,uncertain,lon=-70.26509 lat=-12.55160; chip=yes; outline=yes; adj: natural river sandbar possible
+MDD_ASGM_011,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-70.69425 lat=-12.96107; chip=yes; outline=yes
+MDD_ASGM_012,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-69.99073 lat=-12.62401; chip=yes; outline=yes
+MDD_ASGM_013,MDD,MausV2 x AMW2019-20,ASGM,uncertain,lon=-70.34994 lat=-12.62243; chip=yes; outline=yes; adj: natural river sandbar possible
+MDD_ASGM_014,MDD,MausV2 x AMW2019-20,ASGM,ASGM_confirmed,lon=-69.71248 lat=-12.62254; chip=yes; outline=yes
+GHA_IND_000,GHA,MausV2 (GHA box),industrial,ASM_like_flag_error,lon=-1.99865 lat=6.11981; chip=yes; outline=yes; adj: reads as artisanal; 5 km proximity flag is wrong here
+GHA_IND_001,GHA,MausV2 (GHA box),industrial,ASM_like_flag_error,lon=-1.69424 lat=6.08810; chip=yes; outline=yes; adj: reads as artisanal; 5 km proximity flag is wrong here
+GHA_IND_002,GHA,MausV2 (GHA box),industrial,industrial_confirmed,lon=-1.96579 lat=5.26836; chip=yes; outline=yes
+GHA_IND_003,GHA,MausV2 (GHA box),industrial,ASM_like_flag_error,lon=-1.75325 lat=5.96616; chip=yes; outline=yes; adj: reads as artisanal; 5 km proximity flag is wrong here
+GHA_IND_004,GHA,MausV2 (GHA box),industrial,industrial_confirmed,lon=-2.04254 lat=5.57735; chip=yes; outline=yes
+GHA_IND_005,GHA,MausV2 (GHA box),industrial,industrial_confirmed,lon=-2.31823 lat=4.96051; chip=yes; outline=yes
+GHA_IND_006,GHA,MausV2 (GHA box),industrial,industrial_confirmed,lon=-2.28479 lat=6.23535; chip=yes; outline=yes
+GHA_IND_007,GHA,MausV2 (GHA box),industrial,industrial_confirmed,lon=-1.67320 lat=6.13725; chip=yes; outline=yes
+GHA_IND_008,GHA,MausV2 (GHA box),industrial,industrial_confirmed,lon=-1.68565 lat=6.15905; chip=yes; outline=yes
+GHA_IND_009,GHA,MausV2 (GHA box),industrial,uncertain,lon=-1.70814 lat=6.17510; chip=yes; outline=yes; adj: industrial vs artisanal not separable from this chip
+GHA_IND_010,GHA,MausV2 (GHA box),industrial,uncertain,lon=-1.71562 lat=6.14880; chip=yes; outline=yes; adj: industrial vs artisanal not separable from this chip
+GHA_IND_011,GHA,MausV2 (GHA box),industrial,uncertain,lon=-1.69945 lat=6.17750; chip=yes; outline=yes; adj: industrial vs artisanal not separable from this chip
+GHA_IND_012,GHA,MausV2 (GHA box),industrial,uncertain,lon=-1.69636 lat=6.18000; chip=yes; outline=yes; adj: industrial vs artisanal not separable from this chip
+GHA_IND_013,GHA,MausV2 (GHA box),industrial,uncertain,lon=-2.27384 lat=6.23380; chip=yes; outline=yes; adj: industrial vs artisanal not separable from this chip
+GHA_IND_014,GHA,MausV2 (GHA box),industrial,industrial_confirmed,lon=-2.31710 lat=4.95670; chip=yes; outline=yes
+GHA_UNC_000,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-2.14886 lat=5.70395; chip=yes; outline=yes
+GHA_UNC_001,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-2.24153 lat=5.10989; chip=yes; outline=yes
+GHA_UNC_002,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-1.91511 lat=5.25150; chip=yes; outline=yes
+GHA_UNC_003,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-2.29524 lat=5.95161; chip=yes; outline=yes
+GHA_UNC_004,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-2.23868 lat=5.01250; chip=yes; outline=yes
+GHA_UNC_005,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-2.36384 lat=5.83537; chip=yes; outline=yes
+GHA_UNC_006,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-1.86536 lat=5.13289; chip=yes; outline=yes
+GHA_UNC_007,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-2.60220 lat=5.74059; chip=yes; outline=yes
+GHA_UNC_008,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-1.88341 lat=5.18896; chip=yes; outline=yes
+GHA_UNC_009,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-2.53891 lat=5.78994; chip=yes; outline=yes
+GHA_UNC_010,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-1.54941 lat=5.92860; chip=yes; outline=yes
+GHA_UNC_011,GHA,MausV2 (GHA box),"mining, unclassified",uncertain,lon=-1.27188 lat=6.51914; chip=yes; outline=yes; adj: settlement
+GHA_UNC_012,GHA,MausV2 (GHA box),"mining, unclassified",uncertain,lon=-1.92648 lat=6.40625; chip=yes; outline=yes; adj: rectangular bare patch — quarry?
+GHA_UNC_013,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-1.68876 lat=5.03521; chip=yes; outline=yes
+GHA_UNC_014,GHA,MausV2 (GHA box),"mining, unclassified",ASM_confirmed,lon=-1.52196 lat=5.92376; chip=yes; outline=yes
+PRK_000,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=129.26821 lat=42.23719; chip=yes; outline=yes
+PRK_001,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=129.23946 lat=42.24727; chip=yes; outline=yes
+PRK_002,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=129.23945 lat=42.24726; chip=yes; outline=yes
+PRK_003,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.05402 lat=39.46053; chip=yes; outline=yes
+PRK_004,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.05403 lat=39.46054; chip=yes; outline=yes
+PRK_005,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=128.80691 lat=40.89527; chip=yes; outline=yes
+PRK_006,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.16884 lat=39.48627; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_007,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=128.80660 lat=40.89479; chip=yes; outline=yes
+PRK_008,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=128.90083 lat=41.08572; chip=yes; outline=yes
+PRK_009,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.20253 lat=39.49414; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_010,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=125.67613 lat=38.07239; chip=yes; outline=yes
+PRK_011,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=128.90088 lat=41.08678; chip=yes; outline=yes
+PRK_012,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.04629 lat=39.50223; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_013,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.24471 lat=39.56157; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_014,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.19415 lat=39.57113; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_015,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=129.30163 lat=42.23979; chip=yes; outline=yes
+PRK_016,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.23297 lat=39.71662; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_017,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.04569 lat=39.68259; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_018,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.03328 lat=39.49167; chip=yes; outline=yes
+PRK_019,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.15025 lat=39.75766; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_020,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.80457 lat=41.73622; chip=yes; outline=yes
+PRK_021,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.10139 lat=39.46806; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_022,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.05754 lat=39.70911; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_023,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.07121 lat=39.83864; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_024,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=129.29914 lat=42.24003; chip=yes; outline=yes
+PRK_025,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.05543 lat=39.69650; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_026,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.06045 lat=39.55025; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_027,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=128.72803 lat=40.59245; chip=yes; outline=no polygon
+PRK_028,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.20888 lat=39.56905; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_029,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.18362 lat=39.78001; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_030,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.07143 lat=39.46018; chip=yes; outline=yes
+PRK_031,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.07143 lat=39.46015; chip=yes; outline=yes
+PRK_032,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.02869 lat=39.47230; chip=yes; outline=yes
+PRK_033,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.22975 lat=39.52929; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_034,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.19752 lat=39.79471; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_035,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=126.02865 lat=39.47232; chip=yes; outline=yes
+PRK_036,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.16396 lat=39.81625; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_037,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=128.84619 lat=40.86777; chip=yes; outline=no polygon
+PRK_038,PRK,MausV2,"mining, unclassified (data-denied)",PRK_VISIBLE,lon=125.68717 lat=38.06880; chip=yes; outline=yes
+PRK_039,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.03103 lat=39.51937; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_040,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.17624 lat=39.71930; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_041,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.17502 lat=39.47489; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_042,PRK,MausV2,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=128.72819 lat=40.59986; chip=yes; outline=yes; adj: no surface footprint at 10 m annual median
+PRK_043,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.10420 lat=39.47729; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_044,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.07968 lat=39.55504; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_045,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.15062 lat=39.48057; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_046,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.07411 lat=39.82988; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_047,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.09556 lat=39.48085; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_048,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.16082 lat=39.56713; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+PRK_049,PRK,TangWerner,"mining, unclassified (data-denied)",PRK_NOT_VISIBLE,lon=126.12797 lat=39.47524; chip=yes; outline=no polygon; adj: no surface footprint at 10 m annual median
+NEG_000,TAP,background/neg_grass,not mining,non_mining_confirmed,lon=-56.00756 lat=-4.25907; chip=yes; outline=no polygon
+NEG_001,GHA,background/neg_bare,not mining,non_mining_confirmed,lon=-3.19498 lat=5.10964; chip=yes; outline=no polygon
+NEG_002,GHA,background/neg_wetland,not mining,non_mining_confirmed,lon=-2.75220 lat=5.03014; chip=yes; outline=no polygon
+NEG_003,GHA,background/neg_wetland,not mining,non_mining_confirmed,lon=-1.01558 lat=5.22579; chip=yes; outline=no polygon
+NEG_004,MDD,background/neg_grass,not mining,non_mining_confirmed,lon=-70.24308 lat=-12.79720; chip=yes; outline=no polygon
+NEG_005,TAP,background/neg_grass,not mining,non_mining_confirmed,lon=-54.96462 lat=-6.59101; chip=yes; outline=no polygon
+NEG_006,GHA,background/neg_mangrove,not mining,non_mining_confirmed,lon=-2.42773 lat=4.95899; chip=yes; outline=no polygon
+NEG_007,GHA,background/neg_tree,not mining,non_mining_confirmed,lon=-3.05727 lat=5.61844; chip=yes; outline=no polygon
+NEG_008,TAP,background/neg_wetland,not mining,non_mining_confirmed,lon=-57.64852 lat=-4.40972; chip=yes; outline=no polygon
+NEG_009,MDD,background/neg_grass,not mining,non_mining_confirmed,lon=-69.51813 lat=-12.73764; chip=yes; outline=no polygon
+NEG_010,TAP,background/neg_bare,not mining,non_mining_confirmed,lon=-56.20268 lat=-4.83175; chip=yes; outline=no polygon
+NEG_011,GHA,background/neg_shrub,not mining,non_mining_confirmed,lon=-1.30367 lat=7.14890; chip=yes; outline=no polygon
+NEG_012,TAP,background/neg_bare,not mining,non_mining_confirmed,lon=-55.31038 lat=-7.37281; chip=yes; outline=no polygon
+NEG_013,TAP,background/neg_crop,not mining,non_mining_confirmed,lon=-55.48232 lat=-6.94944; chip=yes; outline=no polygon
+NEG_014,GHA,background/neg_wetland,not mining,non_mining_confirmed,lon=-2.93869 lat=5.09428; chip=yes; outline=no polygon
+NEG_015,TAP,background/neg_built,not mining,non_mining_confirmed,lon=-57.76089 lat=-6.01025; chip=yes; outline=no polygon
+NEG_016,GHA,background/neg_built,not mining,non_mining_confirmed,lon=-1.27510 lat=5.69821; chip=yes; outline=no polygon
+NEG_017,MDD,background/neg_tree,not mining,non_mining_confirmed,lon=-70.88097 lat=-12.71905; chip=yes; outline=no polygon
+NEG_018,TAP,background/neg_grass,not mining,non_mining_confirmed,lon=-54.91880 lat=-4.51078; chip=yes; outline=no polygon
+NEG_019,GHA,background/neg_crop,not mining,non_mining_confirmed,lon=-1.12957 lat=7.13381; chip=yes; outline=no polygon
+NEG_020,MDD,background/neg_crop,not mining,non_mining_confirmed,lon=-70.17085 lat=-12.91443; chip=yes; outline=no polygon
+NEG_021,GHA,background/neg_bare,not mining,non_mining_confirmed,lon=-2.63847 lat=6.13102; chip=yes; outline=no polygon
+NEG_022,MDD,background/neg_water,not mining,non_mining_confirmed,lon=-70.98742 lat=-12.33960; chip=yes; outline=no polygon
+NEG_023,GHA,background/neg_built,not mining,non_mining_confirmed,lon=-1.01153 lat=7.19283; chip=yes; outline=no polygon
+NEG_024,GHA,background/neg_water,not mining,non_mining_confirmed,lon=-1.18158 lat=5.10344; chip=yes; outline=no polygon
+NEG_025,TAP,background/neg_built,not mining,non_mining_confirmed,lon=-54.24318 lat=-5.68066; chip=yes; outline=no polygon
+NEG_026,GHA,background/neg_water,not mining,non_mining_confirmed,lon=-0.90589 lat=4.95495; chip=yes; outline=no polygon
+NEG_027,MDD,background/neg_grass,not mining,non_mining_confirmed,lon=-69.57796 lat=-12.77564; chip=yes; outline=no polygon
+NEG_028,GHA,background/neg_wetland,not mining,non_mining_confirmed,lon=-2.94111 lat=5.11368; chip=yes; outline=no polygon
+NEG_029,MDD,background/neg_tree,not mining,non_mining_confirmed,lon=-69.69411 lat=-12.76351; chip=yes; outline=no polygon
