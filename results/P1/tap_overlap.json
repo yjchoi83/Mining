@@ -1,0 +1,71 @@
+{
+ "roi": "TAP",
+ "roi_km2": 195928.0,
+ "frame_km2": 1904.1926455719306,
+ "mapbiomas_garimpo_km2": 573.81,
+ "mapbiomas_industrial_km2": 4.0,
+ "n_frame_points": 4000,
+ "counts_in_frame": {
+  "garimpo": 1036,
+  "industrial": 0,
+  "none": 2964
+ },
+ "area_est_in_frame_km2": {
+  "garimpo": 493.19,
+  "industrial": 0.0,
+  "none": 1411.01
+ },
+ "wilson95_km2": {
+  "garimpo": [
+   467.8,
+   519.5
+  ],
+  "industrial": [
+   0.0,
+   1.8
+  ],
+  "none": [
+   1384.7,
+   1436.4
+  ]
+ },
+ "garimpo_outside_frame_km2": 80.62,
+ "industrial_outside_frame_km2": 4.0,
+ "none_positive_kinds": {
+  "bare \u2014 sandbar / spoil / tailings": 92,
+  "vegetated": 2822,
+  "water / turbid pond": 50
+ },
+ "example_none_ids": {
+  "bare \u2014 sandbar / spoil / tailings": [
+   "TAP_P00032",
+   "TAP_P00273",
+   "TAP_P00371",
+   "TAP_P00396",
+   "TAP_P00465",
+   "TAP_P00472",
+   "TAP_P00502",
+   "TAP_P00565"
+  ],
+  "vegetated": [
+   "TAP_P00002",
+   "TAP_P00003",
+   "TAP_P00004",
+   "TAP_P00006",
+   "TAP_P00007",
+   "TAP_P00008",
+   "TAP_P00010",
+   "TAP_P00011"
+  ],
+  "water / turbid pond": [
+   "TAP_P00052",
+   "TAP_P00056",
+   "TAP_P00369",
+   "TAP_P00446",
+   "TAP_P00447",
+   "TAP_P00476",
+   "TAP_P00514",
+   "TAP_P00591"
+  ]
+ }
+}

@@ -116,3 +116,42 @@ DPRK feasibility written into `results/P1/P1_results.md` §5. P3 recommendation:
 not the Amazon, because DPRK footprints are small (median 1.7 ha), hard-rock and non-forest —
 closer to Ghana's signature than to Amazonian alluvial garimpo; reference = Tang & Werner as a
 frame only, with VHR adjudication. `results/P1/P1_results.md` is exactly 60 lines. **P2 not started.**
+
+## 2026-09-06 — P1 addendum: contact sheets + TAP three-way overlap
+**Contact sheets** `results/P1/qc_sheets/` (4 PNGs, 4.1 MB, all 160 chips, none dropped).
+Deviation from the request: the four requested groups hold **44 / 37 / 29 / 50** chips, not 40
+each, so a fixed 8x5 would have silently dropped 4 TAP and 10 DPRK chips. The grid is held at
+**8 columns** and rows follow the group (6/5/4/7). Chips upscaled 2x nearest-neighbour; id and
+proposed_label printed under each.
+Two things the sheets show that the per-chip review did not: (i) several TAP positives
+(`TAP_ASGM_009/022/024/027`) are outlines over near-intact canopy, and `TAP_ASGM_017` is a river
+sandbar — exactly the commission modes the overlap table quantifies below; (ii) **a large share of
+the DPRK chips read as village / terraced-agriculture terrain, not mining**, and Tang & Werner-only
+polygons carry **no outline** in the chips (the chip outline was drawn from Maus v2 only, and Maus
+covers just 30 of the DPRK polygons). Both strengthen the P3 recommendation that Tang & Werner is a
+*frame* needing VHR adjudication, never a label.
+
+**TAP three-way pixel-level overlap** (`results/P1/tap_overlap.txt|.json`). MapBiomas class_id is
+mutually exclusive, so the three-way is a 2x3. Frame area and MapBiomas class areas are EXACT
+(30 m, EE); the split of the frame across MapBiomas classes is a **design-based** estimate from the
+4,000 uniformly-drawn in-frame points (Wilson 95%). Negatives were never used — they are
+WorldCover-stratified, not area-representative.
+| | MB garimpo | MB industrial | MB none | total |
+|---|---|---|---|---|
+| inside Maus x AMW frame | **493.2** (468-519) | **0.0** (0-2) | **1,411.0** (1,385-1,436) | 1,904.2 |
+| outside frame | 80.6 | 4.0 | 193,939 | 194,024 |
+| total | 573.8 | 4.0 | 195,350 | 195,928 |
+- Our frame captures **85.9%** of all TAP MapBiomas garimpo; only 14.1% (81 km2) is missed.
+- **Zero** MapBiomas-industrial area falls inside the ASGM positives — the 5 km named-mine
+  exclusion works exactly as designed.
+- **The 74.1% (1,411 km2) disagreement is NOT what the water/sandbar/tailings hypothesis predicted.**
+  Splitting those 2,964 points on S2-2019 annual percentiles: **95.2% are VEGETATED**
+  (median NDVI_p50 +0.817, NDWI_p50 -0.711 -> ~1,343 km2 of near-intact canopy), only **3.1% bare**
+  (spoil/sandbar, ~44 km2) and **1.7% water** (~24 km2). So the dominant commission mode is
+  **geometric dilation, not spectral ambiguity**: AMW detects on 480 m patches and Maus polygons are
+  coarse hulls, so their intersection swallows forest between and around the pits. Example ids for
+  each mode are in `results/P1/tap_positives_outside_mapbiomas.csv` (2,964 rows, with lon/lat).
+- Consequence for P2: the ASGM positive frame should be **eroded or intersected with a
+  bare/低-NDVI mask** before it is used as a label, or the reported AUC is partly a
+  forest-vs-forest boundary effect. This is now the single most important open item, ahead of the
+  classifier-dependence of the label-parity ratio.
